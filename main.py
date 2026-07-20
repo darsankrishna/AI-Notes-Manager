@@ -4,7 +4,7 @@ from notes import add_note, view_notes
 def main():
     while True:
         print("\n====== AI Notes Manager ======")
-        print("1. Add Note")
+        print("1. Add New Note")
         print("2. View Notes")
         print("3. Exit")
         choice = input("Choose an option: ")
