@@ -8,7 +8,7 @@ def main():
         print("2. View Notes")
         print("3. Delete Note")
         print("4. Exit")
-        choice = input("Choose an option: ")
+        choice = int(input("Choose an option: "))
 
         if choice == "1":
             add_note()
