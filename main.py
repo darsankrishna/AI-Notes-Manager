@@ -1,12 +1,13 @@
-from notes import add_note, view_notes
+from notes import add_note, view_notes, delete_note
 
 
 def main():
     while True:
         print("\n====== AI Notes Manager ======")
-        print("1. Create Note")
+        print("1. Add Note")
         print("2. View Notes")
-        print("3. Exit")
+        print("3. Delete Note")
+        print("4. Exit")
         choice = input("Choose an option: ")
 
         if choice == "1":
@@ -14,8 +15,9 @@ def main():
 
         elif choice == "2":
             view_notes()
-
         elif choice == "3":
+            delete_note()
+        elif choice == "4":
             print("Goodbye!")
             break
 
